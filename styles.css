@@ -1,0 +1,92 @@
+html {
+  font-size: 10px;
+  font-family: "Lato", sans-serif;
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+  height: 100%;
+}
+p {
+  font-size: 1.6rem;
+}
+
+.section-1,
+.section-3,
+.section-5,
+.section-7 {
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: center;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-attachment: fixed !important;
+}
+.section-2,
+.section-4,
+.section-6 {
+  padding: 10rem;
+}
+.section-3,
+.section-5 {
+  height: 50rem;
+}
+.section-4,
+.section-6 {
+  background-color: #282e34;
+}
+
+.section-1 {
+  background: url(image1.jpg);
+}
+.section-3 {
+  background: url(image2.jpg);
+}
+.section-5 {
+  background: url(image3.jpg);
+}
+.section-7 {
+  background: url(image1.jpg);
+}
+
+.center-color {
+  font-size: 3rem;
+  padding: 2rem;
+  letter-spacing: 0.7rem;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+}
+.center-color-background {
+  background-color: #111;
+}
+
+.heading {
+  font-size: 3rem;
+  text-align: center;
+  color: #666;
+  text-transform: capitalize;
+  margin: 2rem;
+}
+.body-text {
+  text-align: center;
+  color: #666;
+}
+
+.color-white {
+  color: #fff;
+}
