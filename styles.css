@@ -90,3 +90,9 @@ p {
 .color-white {
   color: #fff;
 }
+
+@media only screen and (max-width: 980px) {
+  html {
+    font-size: 5px;
+  }
+}
